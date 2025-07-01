@@ -48,7 +48,7 @@ Re-encoding
 ^^^^^^^^^^^^^^
 
 Update your *known_faces* directory and run code to re-encode and get new pickle file. 
-This command also rund the detection after encoding.
+This command also runs the detection after encoding.
 
 .. code-block:: bash
 

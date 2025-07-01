@@ -31,12 +31,25 @@ the expected names to be shown during detection. For example if your file is tit
 detected, the name shown will be "demo".
 
 
-Run Code
-^^^^^^^^^^^
+Runing Code
+-------------
 
-Inital startup will train and save the encoding facenet as a pickle file which can later be used. If you need to train
-new faces, you have to delete *encodings_facenet.pkl*.
+Run Detection
+^^^^^^^^^^^^^^^^
+
+Inital startup will train and save the encoding facenet as a pickle file which can later be used. 
 
 .. code-block:: bash
 
     python recognition.py
+
+
+Re-encoding
+^^^^^^^^^^^^^^
+
+Update your *known_faces* directory and run code to re-encode and get new pickle file. 
+This command also rund the detection after encoding.
+
+.. code-block:: bash
+
+    python recognition.py --re-encode
